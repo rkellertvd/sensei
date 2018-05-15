@@ -1,1 +1,26 @@
 # SENSEI THEME INFO
+
+
+name: Sensei
+type: theme
+description: 'Minimal base theme for Drupal 8'
+
+base theme: stable
+core: 8.x
+screenshot: screenshot.png
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+
+libraries:
+  - sensei/global-css
+  - sensei/global-js
