@@ -1,1 +1,14 @@
 # SENSEI LIBRARIES
+
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/base.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    js/script.js: {}
+    dependencies:
+      - core/jquery
